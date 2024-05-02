@@ -1,0 +1,2 @@
+# MafiWolf
+Werewolf, Mafia, Whatever.
