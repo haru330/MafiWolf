@@ -1,35 +1,35 @@
-# PWA Starter
+# mafiwolf
 
-[**Straight to Full Documentation**](https://docs.pwabuilder.com/#/starter/quick-start)
+This template should help get you started developing with Vue 3 in Vite.
 
-The PWABuilder pwa-starter is our opinionated, best practices, production tested starter that we use to build all of our PWAs, including [PWABuilder itself](https://blog.pwabuilder.com/posts/introducing-the-brand-new-pwa-builder/)! The pwa-starter is a starter codebase, just like create-react-app or the Angular CLI can generate, that uses the PWABuilder team&#39;s preferred front-end tech stack. We also have a CLI tool to allow you to create a PWA template from the command line.
+## Recommended IDE Setup
 
-## Jump Right In
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-Install the PWABuilder CLI:
+## Customize configuration
 
-`npm i -g @pwabuilder/cli`
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-And create a new app with this command:
+## Project Setup
 
-`pwa create`
+```sh
+npm install
+```
 
-And start your app locally with:
+### Compile and Hot-Reload for Development
 
-`pwa start`
+```sh
+npm run dev
+```
 
-And that's it! Good luck on your Progressive Web App adventure!
+### Compile and Minify for Production
 
-## More Info
+```sh
+npm run build
+```
 
-[![Get started with the pwa-starter!](https://img.youtube.com/vi/u3pWKpmic_k/0.jpg)](https://www.youtube.com/watch?v=u3pWKpmic_k)
+### Run Unit Tests with [Vitest](https://vitest.dev/)
 
-With it you get an app that:
-- Has no build system to set up and no boilerplate code to add. Everything is included out of the box.
-- Has a Service Worker system using [Workbox](https://developers.google.com/web/tools/workbox/)
-- Scores close to 100 on Lighthouse out of the box
-- Has everything needed to be installable in the browser
-- Is ready to be package for the app stores using [PWABuilder](https://www.pwabuilder.com)
-- Uses the [Azure Static Web Apps CLI](https://azure.github.io/static-web-apps-cli) which enables emulating your production environment locally, and gets you ready for deploying to Azure Static Web Apps!
-
-and all with just a few button clicks 😊.
+```sh
+npm run test:unit
+```
